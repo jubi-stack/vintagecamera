@@ -1,0 +1,54 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border-radius: 50px;
+  }
+  
+  /* About Section */
+  #about img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Products Section */
+  #products .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #products .card img {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
+ 
+  
